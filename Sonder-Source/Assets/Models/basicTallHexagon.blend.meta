@@ -1,0 +1,225 @@
+fileFormatVersion: 2
+guid: 1ef4b20903054fe498f13b9a47c94d12
+timeCreated: 1432581310
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Ceiling
+    100004: Door
+    100006: DoorFrame
+    100008: top_bottom
+    100010: Stairs
+    100012: Ceiling1
+    100014: Ceiling2
+    100016: DoorFrame1
+    100018: Base2
+    100020: Base2_001
+    100022: Ceiling3
+    100024: Door1
+    100026: Door2
+    100028: Frame1
+    100030: Frame2
+    100032: Ceiling4
+    100034: Door3
+    100036: Door4
+    100038: Frame3
+    100040: Frame4
+    100042: floor
+    100044: floor1
+    100046: floor2
+    100048: floor2_001
+    100050: floor2_002
+    100052: Stairs1
+    100054: Stairs2
+    100056: floor3
+    100058: floor4
+    100060: Stairs3
+    400000: //RootNode
+    400002: Ceiling
+    400004: Door
+    400006: DoorFrame
+    400008: top_bottom
+    400010: Stairs
+    400012: Ceiling1
+    400014: Ceiling2
+    400016: DoorFrame1
+    400018: Base2
+    400020: Base2_001
+    400022: Ceiling3
+    400024: Door1
+    400026: Door2
+    400028: Frame1
+    400030: Frame2
+    400032: Ceiling4
+    400034: Door3
+    400036: Door4
+    400038: Frame3
+    400040: Frame4
+    400042: floor
+    400044: floor1
+    400046: floor2
+    400048: floor2_001
+    400050: floor2_002
+    400052: Stairs1
+    400054: Stairs2
+    400056: floor3
+    400058: floor4
+    400060: Stairs3
+    2300000: //RootNode
+    2300002: Ceiling
+    2300004: Door
+    2300006: DoorFrame
+    2300008: top_bottom
+    2300010: Stairs
+    2300012: Ceiling1
+    2300014: Ceiling2
+    2300016: DoorFrame1
+    2300018: Base2
+    2300020: Base2_001
+    2300022: Ceiling3
+    2300024: Door1
+    2300026: Door2
+    2300028: Frame1
+    2300030: Frame2
+    2300032: Ceiling4
+    2300034: Door3
+    2300036: Door4
+    2300038: Frame3
+    2300040: Frame4
+    2300042: floor
+    2300044: floor1
+    2300046: floor2
+    2300048: floor2_001
+    2300050: floor2_002
+    2300052: Stairs1
+    2300054: Stairs2
+    2300056: floor3
+    2300058: floor4
+    2300060: Stairs3
+    3300000: //RootNode
+    3300002: Ceiling
+    3300004: Door
+    3300006: DoorFrame
+    3300008: top_bottom
+    3300010: Stairs
+    3300012: Ceiling1
+    3300014: Ceiling2
+    3300016: DoorFrame1
+    3300018: Base2
+    3300020: Base2_001
+    3300022: Ceiling3
+    3300024: Door1
+    3300026: Door2
+    3300028: Frame1
+    3300030: Frame2
+    3300032: Ceiling4
+    3300034: Door3
+    3300036: Door4
+    3300038: Frame3
+    3300040: Frame4
+    3300042: floor
+    3300044: floor1
+    3300046: floor2
+    3300048: floor2_001
+    3300050: floor2_002
+    3300052: Stairs1
+    3300054: Stairs2
+    3300056: floor3
+    3300058: floor4
+    3300060: Stairs3
+    4300000: top_bottom
+    4300002: DoorFrame
+    4300004: Ceiling
+    4300006: Door
+    4300008: Stairs
+    4300010: Ceiling2
+    4300012: DoorFrame1
+    4300014: Ceiling1
+    4300016: Base2_001
+    4300018: Base2
+    4300020: Ceiling3
+    4300022: Door2
+    4300024: Frame2
+    4300026: Frame1
+    4300028: Door1
+    4300030: Door4
+    4300032: Ceiling4
+    4300034: Frame4
+    4300036: Door3
+    4300038: Frame3
+    4300040: floor
+    4300042: Stairs2
+    4300044: Stairs1
+    4300046: floor2_002
+    4300048: floor2_001
+    4300050: floor2
+    4300052: floor1
+    4300054: floor4
+    4300056: floor3
+    4300058: Stairs3
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

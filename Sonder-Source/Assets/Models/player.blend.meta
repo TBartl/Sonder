@@ -1,0 +1,3028 @@
+fileFormatVersion: 2
+guid: f5ec595266897fe45b808bb27c52ffae
+timeCreated: 1428201577
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cube
+    100004: Cube_001
+    100006: Cube_002
+    100008: LowerBeak
+    100010: polygon6
+    100012: Armature
+    100014: Bone
+    100016: foot_L
+    100018: foot_R
+    100020: hand_L
+    100022: hand_R
+    100024: head
+    100026: lowerArm_L
+    100028: lowerArm_R
+    100030: lowerBody
+    100032: lowerLeg_L
+    100034: lowerLeg_R
+    100036: lowerMiddle_L
+    100038: lowerMiddle_R
+    100040: lowerPinkie_L
+    100042: lowerPinkie_R
+    100044: lowerPointer_L
+    100046: lowerPointer_R
+    100048: lowerRing_L
+    100050: lowerRing_R
+    100052: lowerThumb_L
+    100054: lowerThumb_R
+    100056: neck
+    100058: shoulder_L
+    100060: shoulder_R
+    100062: upperArm_L
+    100064: upperArm_R
+    100066: upperBody
+    100068: upperLeg_L
+    100070: upperLeg_R
+    100072: upperMiddle_L
+    100074: upperMiddle_R
+    100076: upperPinkie_L
+    100078: upperPinkie_R
+    100080: upperPointer_L
+    100082: upperPointer_R
+    100084: upperRing_L
+    100086: upperRing_R
+    100088: upperThumb_L
+    100090: upperThumb_R
+    100092: root
+    100094: BaseBody
+    100096: Hair
+    100098: Plane
+    100100: Hammer
+    100102: Axe
+    100104: Dagger
+    100106: Plate_Armor
+    100108: PlateArmor
+    100110: Mail_Armor
+    100112: Tunic
+    100114: BaseBody_001
+    100116: Scale_Armor
+    100118: Book
+    100120: Gem
+    100122: Skull
+    100124: Plane_001
+    100126: _LeftWaist
+    100128: _RightWaist
+    100130: _BackWaist
+    100132: _Back1
+    100134: _Back2
+    100136: hand_L_001
+    100138: hand_R_001
+    100140: _LeftHand
+    100142: _RightHand
+    100144: Fist
+    100146: AxeBullet
+    100148: DaggerBullet
+    100150: FistBullet
+    100152: HammerBullet
+    400000: //RootNode
+    400002: Cube
+    400004: Cube_001
+    400006: Cube_002
+    400008: LowerBeak
+    400010: polygon6
+    400012: Armature
+    400014: Bone
+    400016: foot_L
+    400018: foot_R
+    400020: hand_L
+    400022: hand_R
+    400024: head
+    400026: lowerArm_L
+    400028: lowerArm_R
+    400030: lowerBody
+    400032: lowerLeg_L
+    400034: lowerLeg_R
+    400036: lowerMiddle_L
+    400038: lowerMiddle_R
+    400040: lowerPinkie_L
+    400042: lowerPinkie_R
+    400044: lowerPointer_L
+    400046: lowerPointer_R
+    400048: lowerRing_L
+    400050: lowerRing_R
+    400052: lowerThumb_L
+    400054: lowerThumb_R
+    400056: neck
+    400058: shoulder_L
+    400060: shoulder_R
+    400062: upperArm_L
+    400064: upperArm_R
+    400066: upperBody
+    400068: upperLeg_L
+    400070: upperLeg_R
+    400072: upperMiddle_L
+    400074: upperMiddle_R
+    400076: upperPinkie_L
+    400078: upperPinkie_R
+    400080: upperPointer_L
+    400082: upperPointer_R
+    400084: upperRing_L
+    400086: upperRing_R
+    400088: upperThumb_L
+    400090: upperThumb_R
+    400092: root
+    400094: BaseBody
+    400096: Hair
+    400098: Plane
+    400100: Hammer
+    400102: Axe
+    400104: Dagger
+    400106: Plate_Armor
+    400108: PlateArmor
+    400110: Mail_Armor
+    400112: Tunic
+    400114: BaseBody_001
+    400116: Scale_Armor
+    400118: Book
+    400120: Gem
+    400122: Skull
+    400124: Plane_001
+    400126: _LeftWaist
+    400128: _RightWaist
+    400130: _BackWaist
+    400132: _Back1
+    400134: _Back2
+    400136: hand_L_001
+    400138: hand_R_001
+    400140: _LeftHand
+    400142: _RightHand
+    400144: Fist
+    400146: AxeBullet
+    400148: DaggerBullet
+    400150: FistBullet
+    400152: HammerBullet
+    2300000: //RootNode
+    2300002: Cube
+    2300004: Cube_001
+    2300006: Cube_002
+    2300008: LowerBeak
+    2300010: polygon6
+    2300012: Plane
+    2300014: Hammer
+    2300016: Axe
+    2300018: Dagger
+    2300020: Book
+    2300022: Gem
+    2300024: Skull
+    2300026: Plane_001
+    2300028: Fist
+    2300030: AxeBullet
+    2300032: DaggerBullet
+    2300034: FistBullet
+    2300036: HammerBullet
+    3300000: //RootNode
+    3300002: Cube
+    3300004: Cube_001
+    3300006: Cube_002
+    3300008: LowerBeak
+    3300010: polygon6
+    3300012: Plane
+    3300014: Hammer
+    3300016: Axe
+    3300018: Dagger
+    3300020: Book
+    3300022: Gem
+    3300024: Skull
+    3300026: Plane_001
+    3300028: Fist
+    3300030: AxeBullet
+    3300032: DaggerBullet
+    3300034: FistBullet
+    3300036: HammerBullet
+    4300000: Cube
+    4300002: Cube_002
+    4300004: Cube_001
+    4300006: LowerBeak
+    4300008: polygon6
+    4300010: Hair
+    4300012: BaseBody
+    4300014: Plane
+    4300016: Hammer
+    4300018: Axe
+    4300020: Dagger
+    4300022: Plate_Armor
+    4300024: PlateArmor
+    4300026: Mail_Armor
+    4300028: Tunic
+    4300030: BaseBody_001
+    4300032: Scale_Armor
+    4300034: Gem
+    4300036: Skull
+    4300038: Book
+    4300040: Plane_001
+    4300042: Fist
+    4300044: AxeBullet
+    4300046: DaggerBullet
+    4300048: HammerBullet
+    4300050: FistBullet
+    7400000: Jumping Up
+    7400002: PoseLib
+    7400004: PoseLib0
+    7400006: Idle
+    7400008: Running
+    7400010: Running0
+    7400012: JumpingUp
+    7400014: JumpingDown
+    7400016: JumpPrime
+    7400018: Hanging
+    7400020: Rolling
+    7400022: GlidingNormal
+    7400024: GlidingFlapping
+    7400026: WalkingForwardStraight
+    7400028: WalkingForwardLeft
+    7400030: WalkingForwardRight
+    7400032: weaponHammerIdle
+    7400034: weaponHammer1
+    7400036: weaponAxe1
+    7400038: weaponDagger1
+    7400040: weaponFist1
+    7400042: weaponFist1
+    9500000: //RootNode
+    13700000: Cube
+    13700002: Cube_002
+    13700004: BaseBody
+    13700006: Hair
+    13700008: Plate_Armor
+    13700010: PlateArmor
+    13700012: Mail_Armor
+    13700014: Tunic
+    13700016: BaseBody_001
+    13700018: Scale_Armor
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 'MuscleClip ''player''conversion warning: ''Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPointer_L''
+      has translation animation. It is not supported.
+
+
+      MuscleClip ''player''conversion warning: ''Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperMiddle_L''
+      has translation animation. It is not supported.
+
+
+      MuscleClip ''player''conversion warning: ''Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperRing_L''
+      has translation animation. It is not supported.
+
+
+      MuscleClip ''player''conversion warning: ''Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPinkie_L''
+      has translation animation. It is not supported.
+
+
+      MuscleClip ''player''conversion warning: ''Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPointer_L''
+      has translation animation. It is not supported.
+
+
+      MuscleClip ''player''conversion warning: ''Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperMiddle_L''
+      has translation animation. It is not supported.
+
+
+      MuscleClip ''player''conversion warning: ''Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperRing_L''
+      has translation animation. It is not supported.
+
+
+      MuscleClip ''player''conversion warning: ''Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPinkie_L''
+      has translation animation. It is not supported.
+
+
+'
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Hanging
+      takeName: Hanging
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/root
+        weight: 1
+      - path: Armature/root/lowerBody
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/neck
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/neck/head
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperMiddle_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperMiddle_L/lowerMiddle_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPinkie_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPinkie_L/lowerPinkie_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPointer_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPointer_L/lowerPointer_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperRing_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperRing_L/lowerRing_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperThumb_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperThumb_L/lowerThumb_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperMiddle_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperMiddle_R/lowerMiddle_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPinkie_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPinkie_R/lowerPinkie_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPointer_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPointer_R/lowerPointer_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperRing_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperRing_R/lowerRing_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperThumb_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperThumb_R/lowerThumb_R
+        weight: 1
+      - path: Armature/root/upperLeg_L
+        weight: 1
+      - path: Armature/root/upperLeg_L/lowerLeg_L
+        weight: 1
+      - path: Armature/root/upperLeg_L/lowerLeg_L/foot_L
+        weight: 1
+      - path: Armature/root/upperLeg_R
+        weight: 1
+      - path: Armature/root/upperLeg_R/lowerLeg_R
+        weight: 1
+      - path: Armature/root/upperLeg_R/lowerLeg_R/foot_R
+        weight: 1
+      - path: Axe
+        weight: 1
+      - path: BaseBody
+        weight: 1
+      - path: Book
+        weight: 1
+      - path: Dagger
+        weight: 1
+      - path: Gem
+        weight: 1
+      - path: Hair
+        weight: 1
+      - path: Hammer
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: Plane_001
+        weight: 1
+      - path: Plate_Armor
+        weight: 1
+      - path: Scale_Armor
+        weight: 1
+      - path: Skull
+        weight: 1
+      - path: Tunic
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Running
+      takeName: Running
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/root
+        weight: 1
+      - path: Armature/root/lowerBody
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/neck
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/neck/head
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperMiddle_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperMiddle_L/lowerMiddle_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPinkie_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPinkie_L/lowerPinkie_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPointer_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPointer_L/lowerPointer_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperRing_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperRing_L/lowerRing_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperThumb_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperThumb_L/lowerThumb_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperMiddle_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperMiddle_R/lowerMiddle_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPinkie_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPinkie_R/lowerPinkie_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPointer_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPointer_R/lowerPointer_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperRing_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperRing_R/lowerRing_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperThumb_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperThumb_R/lowerThumb_R
+        weight: 1
+      - path: Armature/root/upperLeg_L
+        weight: 1
+      - path: Armature/root/upperLeg_L/lowerLeg_L
+        weight: 1
+      - path: Armature/root/upperLeg_L/lowerLeg_L/foot_L
+        weight: 1
+      - path: Armature/root/upperLeg_R
+        weight: 1
+      - path: Armature/root/upperLeg_R/lowerLeg_R
+        weight: 1
+      - path: Armature/root/upperLeg_R/lowerLeg_R/foot_R
+        weight: 1
+      - path: Axe
+        weight: 1
+      - path: BaseBody
+        weight: 1
+      - path: Book
+        weight: 1
+      - path: Dagger
+        weight: 1
+      - path: Gem
+        weight: 1
+      - path: Hair
+        weight: 1
+      - path: Hammer
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: Plane_001
+        weight: 1
+      - path: Plate_Armor
+        weight: 1
+      - path: Scale_Armor
+        weight: 1
+      - path: Skull
+        weight: 1
+      - path: Tunic
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: JumpingUp
+      takeName: JumpingUp
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/root
+        weight: 1
+      - path: Armature/root/lowerBody
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/neck
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/neck/head
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperMiddle_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperMiddle_L/lowerMiddle_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPinkie_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPinkie_L/lowerPinkie_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPointer_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPointer_L/lowerPointer_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperRing_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperRing_L/lowerRing_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperThumb_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperThumb_L/lowerThumb_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperMiddle_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperMiddle_R/lowerMiddle_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPinkie_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPinkie_R/lowerPinkie_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPointer_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPointer_R/lowerPointer_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperRing_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperRing_R/lowerRing_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperThumb_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperThumb_R/lowerThumb_R
+        weight: 1
+      - path: Armature/root/upperLeg_L
+        weight: 1
+      - path: Armature/root/upperLeg_L/lowerLeg_L
+        weight: 1
+      - path: Armature/root/upperLeg_L/lowerLeg_L/foot_L
+        weight: 1
+      - path: Armature/root/upperLeg_R
+        weight: 1
+      - path: Armature/root/upperLeg_R/lowerLeg_R
+        weight: 1
+      - path: Armature/root/upperLeg_R/lowerLeg_R/foot_R
+        weight: 1
+      - path: Axe
+        weight: 1
+      - path: BaseBody
+        weight: 1
+      - path: Book
+        weight: 1
+      - path: Dagger
+        weight: 1
+      - path: Gem
+        weight: 1
+      - path: Hair
+        weight: 1
+      - path: Hammer
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: Plane_001
+        weight: 1
+      - path: Plate_Armor
+        weight: 1
+      - path: Scale_Armor
+        weight: 1
+      - path: Skull
+        weight: 1
+      - path: Tunic
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: JumpingDown
+      takeName: JumpingDown
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/root
+        weight: 1
+      - path: Armature/root/lowerBody
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/neck
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/neck/head
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperMiddle_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperMiddle_L/lowerMiddle_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPinkie_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPinkie_L/lowerPinkie_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPointer_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPointer_L/lowerPointer_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperRing_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperRing_L/lowerRing_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperThumb_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperThumb_L/lowerThumb_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperMiddle_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperMiddle_R/lowerMiddle_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPinkie_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPinkie_R/lowerPinkie_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPointer_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPointer_R/lowerPointer_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperRing_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperRing_R/lowerRing_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperThumb_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperThumb_R/lowerThumb_R
+        weight: 1
+      - path: Armature/root/upperLeg_L
+        weight: 1
+      - path: Armature/root/upperLeg_L/lowerLeg_L
+        weight: 1
+      - path: Armature/root/upperLeg_L/lowerLeg_L/foot_L
+        weight: 1
+      - path: Armature/root/upperLeg_R
+        weight: 1
+      - path: Armature/root/upperLeg_R/lowerLeg_R
+        weight: 1
+      - path: Armature/root/upperLeg_R/lowerLeg_R/foot_R
+        weight: 1
+      - path: Axe
+        weight: 1
+      - path: BaseBody
+        weight: 1
+      - path: Book
+        weight: 1
+      - path: Dagger
+        weight: 1
+      - path: Gem
+        weight: 1
+      - path: Hair
+        weight: 1
+      - path: Hammer
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: Plane_001
+        weight: 1
+      - path: Plate_Armor
+        weight: 1
+      - path: Scale_Armor
+        weight: 1
+      - path: Skull
+        weight: 1
+      - path: Tunic
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: JumpPrime
+      takeName: JumpPrime
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/root
+        weight: 1
+      - path: Armature/root/lowerBody
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/neck
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/neck/head
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperMiddle_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperMiddle_L/lowerMiddle_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPinkie_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPinkie_L/lowerPinkie_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPointer_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPointer_L/lowerPointer_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperRing_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperRing_L/lowerRing_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperThumb_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperThumb_L/lowerThumb_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperMiddle_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperMiddle_R/lowerMiddle_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPinkie_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPinkie_R/lowerPinkie_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPointer_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPointer_R/lowerPointer_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperRing_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperRing_R/lowerRing_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperThumb_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperThumb_R/lowerThumb_R
+        weight: 1
+      - path: Armature/root/upperLeg_L
+        weight: 1
+      - path: Armature/root/upperLeg_L/lowerLeg_L
+        weight: 1
+      - path: Armature/root/upperLeg_L/lowerLeg_L/foot_L
+        weight: 1
+      - path: Armature/root/upperLeg_R
+        weight: 1
+      - path: Armature/root/upperLeg_R/lowerLeg_R
+        weight: 1
+      - path: Armature/root/upperLeg_R/lowerLeg_R/foot_R
+        weight: 1
+      - path: Axe
+        weight: 1
+      - path: BaseBody
+        weight: 1
+      - path: Book
+        weight: 1
+      - path: Dagger
+        weight: 1
+      - path: Gem
+        weight: 1
+      - path: Hair
+        weight: 1
+      - path: Hammer
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: Plane_001
+        weight: 1
+      - path: Plate_Armor
+        weight: 1
+      - path: Scale_Armor
+        weight: 1
+      - path: Skull
+        weight: 1
+      - path: Tunic
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: Idle
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/root
+        weight: 1
+      - path: Armature/root/lowerBody
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/neck
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/neck/head
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperMiddle_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperMiddle_L/lowerMiddle_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPinkie_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPinkie_L/lowerPinkie_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPointer_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPointer_L/lowerPointer_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperRing_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperRing_L/lowerRing_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperThumb_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperThumb_L/lowerThumb_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperMiddle_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperMiddle_R/lowerMiddle_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPinkie_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPinkie_R/lowerPinkie_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPointer_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPointer_R/lowerPointer_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperRing_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperRing_R/lowerRing_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperThumb_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperThumb_R/lowerThumb_R
+        weight: 1
+      - path: Armature/root/upperLeg_L
+        weight: 1
+      - path: Armature/root/upperLeg_L/lowerLeg_L
+        weight: 1
+      - path: Armature/root/upperLeg_L/lowerLeg_L/foot_L
+        weight: 1
+      - path: Armature/root/upperLeg_R
+        weight: 1
+      - path: Armature/root/upperLeg_R/lowerLeg_R
+        weight: 1
+      - path: Armature/root/upperLeg_R/lowerLeg_R/foot_R
+        weight: 1
+      - path: Axe
+        weight: 1
+      - path: BaseBody
+        weight: 1
+      - path: Book
+        weight: 1
+      - path: Dagger
+        weight: 1
+      - path: Gem
+        weight: 1
+      - path: Hair
+        weight: 1
+      - path: Hammer
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: Plane_001
+        weight: 1
+      - path: Plate_Armor
+        weight: 1
+      - path: Scale_Armor
+        weight: 1
+      - path: Skull
+        weight: 1
+      - path: Tunic
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Rolling
+      takeName: Rolling
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/root
+        weight: 1
+      - path: Armature/root/lowerBody
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/neck
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/neck/head
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperMiddle_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperMiddle_L/lowerMiddle_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPinkie_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPinkie_L/lowerPinkie_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPointer_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPointer_L/lowerPointer_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperRing_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperRing_L/lowerRing_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperThumb_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperThumb_L/lowerThumb_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperMiddle_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperMiddle_R/lowerMiddle_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPinkie_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPinkie_R/lowerPinkie_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPointer_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPointer_R/lowerPointer_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperRing_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperRing_R/lowerRing_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperThumb_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperThumb_R/lowerThumb_R
+        weight: 1
+      - path: Armature/root/upperLeg_L
+        weight: 1
+      - path: Armature/root/upperLeg_L/lowerLeg_L
+        weight: 1
+      - path: Armature/root/upperLeg_L/lowerLeg_L/foot_L
+        weight: 1
+      - path: Armature/root/upperLeg_R
+        weight: 1
+      - path: Armature/root/upperLeg_R/lowerLeg_R
+        weight: 1
+      - path: Armature/root/upperLeg_R/lowerLeg_R/foot_R
+        weight: 1
+      - path: Axe
+        weight: 1
+      - path: BaseBody
+        weight: 1
+      - path: Book
+        weight: 1
+      - path: Dagger
+        weight: 1
+      - path: Gem
+        weight: 1
+      - path: Hair
+        weight: 1
+      - path: Hammer
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: Plane_001
+        weight: 1
+      - path: Plate_Armor
+        weight: 1
+      - path: Scale_Armor
+        weight: 1
+      - path: Skull
+        weight: 1
+      - path: Tunic
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: GlidingNormal
+      takeName: GlidingNormal
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/root
+        weight: 1
+      - path: Armature/root/lowerBody
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/neck
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/neck/head
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperMiddle_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperMiddle_L/lowerMiddle_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPinkie_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPinkie_L/lowerPinkie_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPointer_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPointer_L/lowerPointer_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperRing_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperRing_L/lowerRing_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperThumb_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperThumb_L/lowerThumb_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperMiddle_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperMiddle_R/lowerMiddle_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPinkie_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPinkie_R/lowerPinkie_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPointer_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPointer_R/lowerPointer_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperRing_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperRing_R/lowerRing_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperThumb_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperThumb_R/lowerThumb_R
+        weight: 1
+      - path: Armature/root/upperLeg_L
+        weight: 1
+      - path: Armature/root/upperLeg_L/lowerLeg_L
+        weight: 1
+      - path: Armature/root/upperLeg_L/lowerLeg_L/foot_L
+        weight: 1
+      - path: Armature/root/upperLeg_R
+        weight: 1
+      - path: Armature/root/upperLeg_R/lowerLeg_R
+        weight: 1
+      - path: Armature/root/upperLeg_R/lowerLeg_R/foot_R
+        weight: 1
+      - path: Axe
+        weight: 1
+      - path: BaseBody
+        weight: 1
+      - path: Book
+        weight: 1
+      - path: Dagger
+        weight: 1
+      - path: Gem
+        weight: 1
+      - path: Hair
+        weight: 1
+      - path: Hammer
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: Plane_001
+        weight: 1
+      - path: Plate_Armor
+        weight: 1
+      - path: Scale_Armor
+        weight: 1
+      - path: Skull
+        weight: 1
+      - path: Tunic
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: GlidingFlapping
+      takeName: GlidingFlapping
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/root
+        weight: 1
+      - path: Armature/root/lowerBody
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/neck
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/neck/head
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperMiddle_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperMiddle_L/lowerMiddle_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPinkie_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPinkie_L/lowerPinkie_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPointer_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPointer_L/lowerPointer_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperRing_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperRing_L/lowerRing_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperThumb_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperThumb_L/lowerThumb_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperMiddle_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperMiddle_R/lowerMiddle_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPinkie_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPinkie_R/lowerPinkie_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPointer_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPointer_R/lowerPointer_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperRing_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperRing_R/lowerRing_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperThumb_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperThumb_R/lowerThumb_R
+        weight: 1
+      - path: Armature/root/upperLeg_L
+        weight: 1
+      - path: Armature/root/upperLeg_L/lowerLeg_L
+        weight: 1
+      - path: Armature/root/upperLeg_L/lowerLeg_L/foot_L
+        weight: 1
+      - path: Armature/root/upperLeg_R
+        weight: 1
+      - path: Armature/root/upperLeg_R/lowerLeg_R
+        weight: 1
+      - path: Armature/root/upperLeg_R/lowerLeg_R/foot_R
+        weight: 1
+      - path: Axe
+        weight: 1
+      - path: BaseBody
+        weight: 1
+      - path: Book
+        weight: 1
+      - path: Dagger
+        weight: 1
+      - path: Gem
+        weight: 1
+      - path: Hair
+        weight: 1
+      - path: Hammer
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: Plane_001
+        weight: 1
+      - path: Plate_Armor
+        weight: 1
+      - path: Scale_Armor
+        weight: 1
+      - path: Skull
+        weight: 1
+      - path: Tunic
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: WalkingForwardStraight
+      takeName: WalkingForwardStraight
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/root
+        weight: 1
+      - path: Armature/root/lowerBody
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/neck
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/neck/head
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperMiddle_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperMiddle_L/lowerMiddle_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPinkie_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPinkie_L/lowerPinkie_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPointer_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPointer_L/lowerPointer_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperRing_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperRing_L/lowerRing_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperThumb_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperThumb_L/lowerThumb_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperMiddle_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperMiddle_R/lowerMiddle_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPinkie_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPinkie_R/lowerPinkie_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPointer_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPointer_R/lowerPointer_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperRing_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperRing_R/lowerRing_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperThumb_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperThumb_R/lowerThumb_R
+        weight: 1
+      - path: Armature/root/upperLeg_L
+        weight: 1
+      - path: Armature/root/upperLeg_L/lowerLeg_L
+        weight: 1
+      - path: Armature/root/upperLeg_L/lowerLeg_L/foot_L
+        weight: 1
+      - path: Armature/root/upperLeg_R
+        weight: 1
+      - path: Armature/root/upperLeg_R/lowerLeg_R
+        weight: 1
+      - path: Armature/root/upperLeg_R/lowerLeg_R/foot_R
+        weight: 1
+      - path: Axe
+        weight: 1
+      - path: BaseBody
+        weight: 1
+      - path: Book
+        weight: 1
+      - path: Dagger
+        weight: 1
+      - path: Gem
+        weight: 1
+      - path: Hair
+        weight: 1
+      - path: Hammer
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: Plane_001
+        weight: 1
+      - path: Plate_Armor
+        weight: 1
+      - path: Scale_Armor
+        weight: 1
+      - path: Skull
+        weight: 1
+      - path: Tunic
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: WalkingForwardLeft
+      takeName: WalkingForwardLeft
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 45
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/root
+        weight: 1
+      - path: Armature/root/lowerBody
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/neck
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/neck/head
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperMiddle_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperMiddle_L/lowerMiddle_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPinkie_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPinkie_L/lowerPinkie_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPointer_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPointer_L/lowerPointer_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperRing_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperRing_L/lowerRing_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperThumb_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperThumb_L/lowerThumb_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperMiddle_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperMiddle_R/lowerMiddle_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPinkie_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPinkie_R/lowerPinkie_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPointer_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPointer_R/lowerPointer_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperRing_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperRing_R/lowerRing_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperThumb_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperThumb_R/lowerThumb_R
+        weight: 1
+      - path: Armature/root/upperLeg_L
+        weight: 1
+      - path: Armature/root/upperLeg_L/lowerLeg_L
+        weight: 1
+      - path: Armature/root/upperLeg_L/lowerLeg_L/foot_L
+        weight: 1
+      - path: Armature/root/upperLeg_R
+        weight: 1
+      - path: Armature/root/upperLeg_R/lowerLeg_R
+        weight: 1
+      - path: Armature/root/upperLeg_R/lowerLeg_R/foot_R
+        weight: 1
+      - path: Axe
+        weight: 1
+      - path: BaseBody
+        weight: 1
+      - path: Book
+        weight: 1
+      - path: Dagger
+        weight: 1
+      - path: Gem
+        weight: 1
+      - path: Hair
+        weight: 1
+      - path: Hammer
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: Plane_001
+        weight: 1
+      - path: Plate_Armor
+        weight: 1
+      - path: Scale_Armor
+        weight: 1
+      - path: Skull
+        weight: 1
+      - path: Tunic
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: WalkingForwardRight
+      takeName: WalkingForwardRight
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: -45
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/root
+        weight: 1
+      - path: Armature/root/lowerBody
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/neck
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/neck/head
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperMiddle_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperMiddle_L/lowerMiddle_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPinkie_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPinkie_L/lowerPinkie_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPointer_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPointer_L/lowerPointer_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperRing_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperRing_L/lowerRing_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperThumb_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperThumb_L/lowerThumb_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperMiddle_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperMiddle_R/lowerMiddle_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPinkie_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPinkie_R/lowerPinkie_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPointer_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPointer_R/lowerPointer_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperRing_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperRing_R/lowerRing_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperThumb_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperThumb_R/lowerThumb_R
+        weight: 1
+      - path: Armature/root/upperLeg_L
+        weight: 1
+      - path: Armature/root/upperLeg_L/lowerLeg_L
+        weight: 1
+      - path: Armature/root/upperLeg_L/lowerLeg_L/foot_L
+        weight: 1
+      - path: Armature/root/upperLeg_R
+        weight: 1
+      - path: Armature/root/upperLeg_R/lowerLeg_R
+        weight: 1
+      - path: Armature/root/upperLeg_R/lowerLeg_R/foot_R
+        weight: 1
+      - path: Axe
+        weight: 1
+      - path: BaseBody
+        weight: 1
+      - path: Book
+        weight: 1
+      - path: Dagger
+        weight: 1
+      - path: Gem
+        weight: 1
+      - path: Hair
+        weight: 1
+      - path: Hammer
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: Plane_001
+        weight: 1
+      - path: Plate_Armor
+        weight: 1
+      - path: Scale_Armor
+        weight: 1
+      - path: Skull
+        weight: 1
+      - path: Tunic
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: weaponHammer1
+      takeName: weaponHammer1
+      firstFrame: 0
+      lastFrame: 47
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/root
+        weight: 1
+      - path: Armature/root/lowerBody
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/neck
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/neck/head
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperMiddle_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperMiddle_L/lowerMiddle_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPinkie_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPinkie_L/lowerPinkie_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPointer_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPointer_L/lowerPointer_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperRing_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperRing_L/lowerRing_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperThumb_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperThumb_L/lowerThumb_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperMiddle_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperMiddle_R/lowerMiddle_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPinkie_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPinkie_R/lowerPinkie_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPointer_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPointer_R/lowerPointer_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperRing_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperRing_R/lowerRing_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperThumb_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperThumb_R/lowerThumb_R
+        weight: 1
+      - path: Armature/root/upperLeg_L
+        weight: 1
+      - path: Armature/root/upperLeg_L/lowerLeg_L
+        weight: 1
+      - path: Armature/root/upperLeg_L/lowerLeg_L/foot_L
+        weight: 1
+      - path: Armature/root/upperLeg_R
+        weight: 1
+      - path: Armature/root/upperLeg_R/lowerLeg_R
+        weight: 1
+      - path: Armature/root/upperLeg_R/lowerLeg_R/foot_R
+        weight: 1
+      - path: Axe
+        weight: 1
+      - path: BaseBody
+        weight: 1
+      - path: Book
+        weight: 1
+      - path: Dagger
+        weight: 1
+      - path: Gem
+        weight: 1
+      - path: Hair
+        weight: 1
+      - path: Hammer
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: Plane_001
+        weight: 1
+      - path: Plate_Armor
+        weight: 1
+      - path: Scale_Armor
+        weight: 1
+      - path: Skull
+        weight: 1
+      - path: Tunic
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: weaponAxe1
+      takeName: weaponAxe1
+      firstFrame: 0
+      lastFrame: 47
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/root
+        weight: 1
+      - path: Armature/root/lowerBody
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/neck
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/neck/head
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperMiddle_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperMiddle_L/lowerMiddle_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPinkie_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPinkie_L/lowerPinkie_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPointer_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPointer_L/lowerPointer_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperRing_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperRing_L/lowerRing_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperThumb_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperThumb_L/lowerThumb_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperMiddle_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperMiddle_R/lowerMiddle_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPinkie_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPinkie_R/lowerPinkie_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPointer_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPointer_R/lowerPointer_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperRing_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperRing_R/lowerRing_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperThumb_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperThumb_R/lowerThumb_R
+        weight: 1
+      - path: Armature/root/upperLeg_L
+        weight: 1
+      - path: Armature/root/upperLeg_L/lowerLeg_L
+        weight: 1
+      - path: Armature/root/upperLeg_L/lowerLeg_L/foot_L
+        weight: 1
+      - path: Armature/root/upperLeg_R
+        weight: 1
+      - path: Armature/root/upperLeg_R/lowerLeg_R
+        weight: 1
+      - path: Armature/root/upperLeg_R/lowerLeg_R/foot_R
+        weight: 1
+      - path: Axe
+        weight: 1
+      - path: BaseBody
+        weight: 1
+      - path: Book
+        weight: 1
+      - path: Dagger
+        weight: 1
+      - path: Gem
+        weight: 1
+      - path: Hair
+        weight: 1
+      - path: Hammer
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: Plane_001
+        weight: 1
+      - path: Plate_Armor
+        weight: 1
+      - path: Scale_Armor
+        weight: 1
+      - path: Skull
+        weight: 1
+      - path: Tunic
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: weaponDagger1
+      takeName: weaponDagger1
+      firstFrame: 0
+      lastFrame: 47
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/root
+        weight: 1
+      - path: Armature/root/lowerBody
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/neck
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/neck/head
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperMiddle_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperMiddle_L/lowerMiddle_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPinkie_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPinkie_L/lowerPinkie_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPointer_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPointer_L/lowerPointer_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperRing_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperRing_L/lowerRing_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperThumb_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperThumb_L/lowerThumb_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperMiddle_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperMiddle_R/lowerMiddle_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPinkie_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPinkie_R/lowerPinkie_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPointer_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPointer_R/lowerPointer_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperRing_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperRing_R/lowerRing_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperThumb_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperThumb_R/lowerThumb_R
+        weight: 1
+      - path: Armature/root/upperLeg_L
+        weight: 1
+      - path: Armature/root/upperLeg_L/lowerLeg_L
+        weight: 1
+      - path: Armature/root/upperLeg_L/lowerLeg_L/foot_L
+        weight: 1
+      - path: Armature/root/upperLeg_R
+        weight: 1
+      - path: Armature/root/upperLeg_R/lowerLeg_R
+        weight: 1
+      - path: Armature/root/upperLeg_R/lowerLeg_R/foot_R
+        weight: 1
+      - path: Axe
+        weight: 1
+      - path: BaseBody
+        weight: 1
+      - path: Book
+        weight: 1
+      - path: Dagger
+        weight: 1
+      - path: Gem
+        weight: 1
+      - path: Hair
+        weight: 1
+      - path: Hammer
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: Plane_001
+        weight: 1
+      - path: Plate_Armor
+        weight: 1
+      - path: Scale_Armor
+        weight: 1
+      - path: Skull
+        weight: 1
+      - path: Tunic
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: weaponFist1
+      takeName: weaponFist1
+      firstFrame: 0
+      lastFrame: 47
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/root
+        weight: 1
+      - path: Armature/root/lowerBody
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/neck
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/neck/head
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperMiddle_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperMiddle_L/lowerMiddle_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPinkie_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPinkie_L/lowerPinkie_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPointer_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperPointer_L/lowerPointer_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperRing_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperRing_L/lowerRing_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperThumb_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_L/upperArm_L/lowerArm_L/hand_L/upperThumb_L/lowerThumb_L
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperMiddle_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperMiddle_R/lowerMiddle_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPinkie_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPinkie_R/lowerPinkie_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPointer_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperPointer_R/lowerPointer_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperRing_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperRing_R/lowerRing_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperThumb_R
+        weight: 1
+      - path: Armature/root/lowerBody/upperBody/shoulder_R/upperArm_R/lowerArm_R/hand_R/upperThumb_R/lowerThumb_R
+        weight: 1
+      - path: Armature/root/upperLeg_L
+        weight: 1
+      - path: Armature/root/upperLeg_L/lowerLeg_L
+        weight: 1
+      - path: Armature/root/upperLeg_L/lowerLeg_L/foot_L
+        weight: 1
+      - path: Armature/root/upperLeg_R
+        weight: 1
+      - path: Armature/root/upperLeg_R/lowerLeg_R
+        weight: 1
+      - path: Armature/root/upperLeg_R/lowerLeg_R/foot_R
+        weight: 1
+      - path: Axe
+        weight: 1
+      - path: BaseBody
+        weight: 1
+      - path: Book
+        weight: 1
+      - path: Dagger
+        weight: 1
+      - path: Gem
+        weight: 1
+      - path: Hair
+        weight: 1
+      - path: Hammer
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: Plane_001
+        weight: 1
+      - path: Plate_Armor
+        weight: 1
+      - path: Scale_Armor
+        weight: 1
+      - path: Skull
+        weight: 1
+      - path: Tunic
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 0
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: root
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upperLeg_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upperLeg_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowerLeg_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowerLeg_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowerBody
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upperBody
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shoulder_L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shoulder_R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upperArm_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upperArm_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowerArm_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowerArm_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upperThumb_L
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowerThumb_L
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upperPointer_L
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowerPointer_L
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upperMiddle_L
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowerMiddle_L
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upperRing_L
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowerRing_L
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upperPinkie_L
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowerPinkie_L
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upperThumb_R
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowerThumb_R
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upperPointer_R
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowerPointer_R
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upperMiddle_R
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowerMiddle_R
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upperRing_R
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowerRing_R
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upperPinkie_R
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowerPinkie_R
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: player(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Armature
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: root
+      position: {x: 0, y: .242270082, z: .0880531445}
+      rotation: {x: -4.09326155e-08, y: -1.02749844e-07, z: -.707106709, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lowerBody
+      position: {x: -.220000014, y: 1.66095404e-08, z: 2.70930101e-09}
+      rotation: {x: -2.87281779e-07, y: -.080276534, z: -1.56305529e-08, w: .996772647}
+      scale: {x: .999999821, y: 1, z: .999999821}
+      transformModified: 1
+    - name: upperBody
+      position: {x: -.0946409553, y: 7.14519288e-09, z: 2.32830599e-09}
+      rotation: {x: -.00205150619, y: -.0559633635, z: .0372992307, w: .997733772}
+      scale: {x: .999999881, y: 1, z: 1}
+      transformModified: 1
+    - name: neck
+      position: {x: -.103767857, y: 6.34463504e-09, z: -1.40596501e-09}
+      rotation: {x: -.000799281348, y: -.0357960314, z: -.0869886354, w: .995565653}
+      scale: {x: .999999821, y: .999999821, z: .999999881}
+      transformModified: 1
+    - name: head
+      position: {x: -.0550211892, y: 6.46104992e-09, z: 4.76711604e-09}
+      rotation: {x: -.00774211716, y: .179295912, z: .0491365567, w: .982536852}
+      scale: {x: .99999994, y: .999999881, z: 1}
+      transformModified: 1
+    - name: shoulder_L
+      position: {x: -.103767857, y: 6.34463504e-09, z: -1.40596501e-09}
+      rotation: {x: -.345903248, y: -.530086935, z: .491599619, w: .598070681}
+      scale: {x: .999999881, y: .999999821, z: .99999994}
+      transformModified: 1
+    - name: upperArm_L
+      position: {x: -.0651532561, y: 9.31323019e-10, z: -1.00117177e-08}
+      rotation: {x: -.0712460876, y: .0516391248, z: .128609315, w: .987783968}
+      scale: {x: .99999994, y: .999999821, z: .99999994}
+      transformModified: 1
+    - name: lowerArm_L
+      position: {x: -.157118499, y: 2.28174031e-08, z: -9.31322575e-09}
+      rotation: {x: .269722015, y: .0353741497, z: .0301682279, w: .961815298}
+      scale: {x: .999999821, y: .999999881, z: .999999881}
+      transformModified: 1
+    - name: hand_L
+      position: {x: -.0749277174, y: 1.50757842e-08, z: 1.28056854e-08}
+      rotation: {x: .0318387337, y: -.0206606425, z: .0361441262, w: .998625636}
+      scale: {x: 1.00000012, y: .99999994, z: 1.00000012}
+      transformModified: 1
+    - name: upperPointer_L
+      position: {x: -.122254074, y: -.0306354463, z: .00769779831}
+      rotation: {x: .294458956, y: -.0911236703, z: .0764700398, w: .948231339}
+      scale: {x: 1, y: .999999881, z: .999999821}
+      transformModified: 1
+    - name: lowerPointer_L
+      position: {x: -.0509599783, y: 5.587935e-09, z: 7.4505806e-09}
+      rotation: {x: .0076351217, y: -.0582828037, z: .149998233, w: .986937344}
+      scale: {x: .99999994, y: 1, z: .999999881}
+      transformModified: 1
+    - name: upperMiddle_L
+      position: {x: -.119520545, y: -.00123482617, z: -.0111897029}
+      rotation: {x: .307870001, y: -.102073811, z: .0644153431, w: .943741322}
+      scale: {x: .99999994, y: .999999881, z: .999999881}
+      transformModified: 1
+    - name: lowerMiddle_L
+      position: {x: -.0509600081, y: 5.12227416e-08, z: -1.49011612e-08}
+      rotation: {x: .0254048575, y: -.056454245, z: .150695726, w: .986639917}
+      scale: {x: 1.00000012, y: 1.00000024, z: .999999881}
+      transformModified: 1
+    - name: upperRing_L
+      position: {x: -.110767454, y: .0206397716, z: -.03068351}
+      rotation: {x: .318665296, y: -.106967308, z: .0544608049, w: .94023639}
+      scale: {x: 1, y: 1, z: .99999994}
+      transformModified: 1
+    - name: lowerRing_L
+      position: {x: -.0509600081, y: -2.04890966e-08, z: 3.72529008e-09}
+      rotation: {x: .0402934961, y: -.0558150336, z: .150933415, w: .986144125}
+      scale: {x: .99999994, y: 1, z: 1}
+      transformModified: 1
+    - name: upperPinkie_L
+      position: {x: -.104291186, y: .0465874709, z: -.0531699657}
+      rotation: {x: .327089816, y: -.108828828, z: .0475747958, w: .937499404}
+      scale: {x: 1, y: 1, z: .999999881}
+      transformModified: 1
+    - name: lowerPinkie_L
+      position: {x: -.0459925383, y: 1.35041773e-08, z: 9.31322575e-09}
+      rotation: {x: .0525315329, y: -.0584421493, z: .14993602, w: .985567987}
+      scale: {x: 1, y: .99999994, z: .999999881}
+      transformModified: 1
+    - name: upperThumb_L
+      position: {x: -.0365072861, y: -.0471157394, z: .0109154843}
+      rotation: {x: .200734943, y: .10988754, z: .328909695, w: .916214287}
+      scale: {x: 1.00000024, y: 1, z: 1}
+      transformModified: 1
+    - name: lowerThumb_L
+      position: {x: -.0536308736, y: -2.23517418e-08, z: -1.86264504e-09}
+      rotation: {x: -.0860920474, y: -.0377010666, z: -.0557442009, w: .99401176}
+      scale: {x: .99999994, y: .999999702, z: .999999881}
+      transformModified: 1
+    - name: shoulder_R
+      position: {x: -.102611072, y: .0154511891, z: -1.24284099e-06}
+      rotation: {x: .305313617, y: -.554472089, z: -.534836531, w: .559727013}
+      scale: {x: .999999881, y: .999999881, z: .99999994}
+      transformModified: 1
+    - name: upperArm_R
+      position: {x: -.0651532486, y: 1.39698397e-09, z: 9.31322575e-09}
+      rotation: {x: .0712462887, y: .0516392216, z: -.128609151, w: .987783968}
+      scale: {x: .99999994, y: 1, z: 1}
+      transformModified: 1
+    - name: lowerArm_R
+      position: {x: -.157118499, y: 1.23400241e-08, z: -7.91624188e-09}
+      rotation: {x: -.269721925, y: .0353742242, z: -.030167982, w: .961815357}
+      scale: {x: .999999821, y: .999999881, z: 1}
+      transformModified: 1
+    - name: hand_R
+      position: {x: -.0749277025, y: 2.03726994e-10, z: 7.21774995e-09}
+      rotation: {x: -.0318385847, y: -.0206607468, z: -.036144264, w: .998625576}
+      scale: {x: 1.00000024, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: upperPointer_R
+      position: {x: -.122254051, y: .0306354631, z: .00769780204}
+      rotation: {x: -.294458956, y: -.0911235958, z: -.0764704943, w: .948231339}
+      scale: {x: .99999994, y: 1, z: 1}
+      transformModified: 1
+    - name: lowerPointer_R
+      position: {x: -.0509599932, y: -2.14204192e-08, z: 7.4505806e-09}
+      rotation: {x: -.00763510028, y: -.0582828224, z: -.149998233, w: .986937344}
+      scale: {x: 1, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: upperMiddle_R
+      position: {x: -.11952053, y: .00123483688, z: -.0111897103}
+      rotation: {x: -.307869911, y: -.102073088, z: -.0644146279, w: .9437415}
+      scale: {x: 1, y: 1, z: .99999994}
+      transformModified: 1
+    - name: lowerMiddle_R
+      position: {x: -.050959982, y: -3.35276127e-08, z: 7.4505806e-09}
+      rotation: {x: -.0254048947, y: -.0564542264, z: -.150695756, w: .986639917}
+      scale: {x: .999999881, y: .99999994, z: .999999821}
+      transformModified: 1
+    - name: upperRing_R
+      position: {x: -.110767432, y: -.0206397604, z: -.0306835063}
+      rotation: {x: -.318665445, y: -.10696701, z: -.0544611439, w: .94023639}
+      scale: {x: .999999881, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: lowerRing_R
+      position: {x: -.0509600192, y: -3.63215804e-08, z: 1.49011612e-08}
+      rotation: {x: -.0402934439, y: -.0558150187, z: -.1509334, w: .986144125}
+      scale: {x: .999999642, y: .999999702, z: 1.00000012}
+      transformModified: 1
+    - name: upperPinkie_R
+      position: {x: -.104291216, y: -.0465874746, z: -.0531699359}
+      rotation: {x: -.327089638, y: -.108828865, z: -.0475749522, w: .937499583}
+      scale: {x: 1, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: lowerPinkie_R
+      position: {x: -.0459925346, y: 1.11758709e-08, z: 1.39698386e-08}
+      rotation: {x: -.0525315702, y: -.0584421381, z: -.149936005, w: .985567927}
+      scale: {x: 1.00000012, y: 1, z: 1}
+      transformModified: 1
+    - name: upperThumb_R
+      position: {x: -.0365072712, y: .0471157432, z: .0109154787}
+      rotation: {x: -.200734988, y: .109887376, z: -.328909576, w: .916214347}
+      scale: {x: .99999994, y: 1.00000012, z: 1.00000024}
+      transformModified: 1
+    - name: lowerThumb_R
+      position: {x: -.0536308773, y: 8.96397978e-09, z: -3.72529008e-09}
+      rotation: {x: .0860921144, y: -.0377010629, z: .0557442084, w: .99401176}
+      scale: {x: .999999821, y: 1, z: .99999994}
+      transformModified: 1
+    - name: upperLeg_L
+      position: {x: -.180810928, y: -.0640110448, z: -.0292943455}
+      rotation: {x: -.137071803, y: -.68617934, z: .714363217, w: .00738450931}
+      scale: {x: .999999881, y: .999999642, z: .999999642}
+      transformModified: 1
+    - name: lowerLeg_L
+      position: {x: -.116630055, y: 6.51925802e-09, z: 5.93718097e-09}
+      rotation: {x: -.660083234, y: .111056603, z: -.324429452, w: .668357849}
+      scale: {x: 1, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: foot_L
+      position: {x: -.292382985, y: 2.44269813e-08, z: 2.27739196e-08}
+      rotation: {x: .592746854, y: .0399575531, z: .803998828, w: -.0253099054}
+      scale: {x: .999999881, y: .999999821, z: 1}
+      transformModified: 1
+    - name: upperLeg_R
+      position: {x: -.180810913, y: .0640110597, z: -.0292943567}
+      rotation: {x: -.137071595, y: .686179399, z: .714363217, w: -.00738459872}
+      scale: {x: .999999702, y: .999999464, z: .999999464}
+      transformModified: 1
+    - name: lowerLeg_R
+      position: {x: -.116630018, y: 1.49011612e-08, z: 9.02218744e-09}
+      rotation: {x: .660083234, y: .111056365, z: .324429393, w: .668357849}
+      scale: {x: .99999994, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: foot_R
+      position: {x: -.292382985, y: 1.10246674e-08, z: -1.1639754e-08}
+      rotation: {x: .592746794, y: -.0399578474, z: .803998828, w: .0253100209}
+      scale: {x: .99999994, y: 1, z: .99999994}
+      transformModified: 1
+    - name: BaseBody
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -1.1920929e-07, y: -1.13446445e-16, z: 3.31612552e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Hair
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -1.1920929e-07, y: -2.6007433e-23, z: 2.1816616e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Plane
+      position: {x: 0, y: -.5, z: 2.18556941e-08}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106709}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

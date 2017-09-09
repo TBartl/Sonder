@@ -1,0 +1,201 @@
+fileFormatVersion: 2
+guid: 75f1a0fd2f348404d97f02ba61d67333
+timeCreated: 1454979547
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Bod01Base
+    100004: Bod01Hair
+    100006: foot_L
+    100008: foot_R
+    100010: hand_L
+    100012: hand_R
+    100014: head
+    100016: lowerArm_L
+    100018: lowerArm_R
+    100020: lowerBody
+    100022: lowerLeg_L
+    100024: lowerLeg_R
+    100026: lowerMiddle_L
+    100028: lowerMiddle_R
+    100030: lowerPinkie_L
+    100032: lowerPinkie_R
+    100034: lowerPointer_L
+    100036: lowerPointer_R
+    100038: lowerRing_L
+    100040: lowerRing_R
+    100042: lowerThumb_L
+    100044: lowerThumb_R
+    100046: Mask01
+    100048: neck
+    100050: //RootNode
+    100052: root
+    100054: shoulder_L
+    100056: shoulder_R
+    100058: upperArm_L
+    100060: upperArm_R
+    100062: upperBody
+    100064: upperLeg_L
+    100066: upperLeg_R
+    100068: upperMiddle_L
+    100070: upperMiddle_R
+    100072: upperPinkie_L
+    100074: upperPinkie_R
+    100076: upperPointer_L
+    100078: upperPointer_R
+    100080: upperRing_L
+    100082: upperRing_R
+    100084: upperThumb_L
+    100086: upperThumb_R
+    100088: WepAxe
+    100090: WepDagger
+    100092: WepHammer
+    400000: Armature
+    400002: Bod01Base
+    400004: Bod01Hair
+    400006: foot_L
+    400008: foot_R
+    400010: hand_L
+    400012: hand_R
+    400014: head
+    400016: lowerArm_L
+    400018: lowerArm_R
+    400020: lowerBody
+    400022: lowerLeg_L
+    400024: lowerLeg_R
+    400026: lowerMiddle_L
+    400028: lowerMiddle_R
+    400030: lowerPinkie_L
+    400032: lowerPinkie_R
+    400034: lowerPointer_L
+    400036: lowerPointer_R
+    400038: lowerRing_L
+    400040: lowerRing_R
+    400042: lowerThumb_L
+    400044: lowerThumb_R
+    400046: Mask01
+    400048: neck
+    400050: //RootNode
+    400052: root
+    400054: shoulder_L
+    400056: shoulder_R
+    400058: upperArm_L
+    400060: upperArm_R
+    400062: upperBody
+    400064: upperLeg_L
+    400066: upperLeg_R
+    400068: upperMiddle_L
+    400070: upperMiddle_R
+    400072: upperPinkie_L
+    400074: upperPinkie_R
+    400076: upperPointer_L
+    400078: upperPointer_R
+    400080: upperRing_L
+    400082: upperRing_R
+    400084: upperThumb_L
+    400086: upperThumb_R
+    400088: WepAxe
+    400090: WepDagger
+    400092: WepHammer
+    2300000: WepAxe
+    2300002: WepDagger
+    2300004: WepHammer
+    3300000: WepAxe
+    3300002: WepDagger
+    3300004: WepHammer
+    4300000: WepHammer
+    4300002: WepAxe
+    4300004: WepDagger
+    4300006: Bod01Hair
+    4300008: Mask01
+    4300010: Bod01Base
+    7400000: Default Take
+    7400002: GlidingFlapping
+    7400004: GlidingNormal
+    7400006: Hanging
+    7400008: Idle
+    7400010: Idle_001
+    7400012: JumpingDown
+    7400014: JumpingUp
+    7400016: JumpPrime
+    7400018: PoseLib
+    7400020: Rolling
+    7400022: Running
+    7400024: WalkingForwardLeft
+    7400026: WalkingForwardRight
+    7400028: WalkingForwardStraight
+    7400030: weaponAxe1
+    7400032: weaponDagger1
+    7400034: weaponFist1
+    7400036: weaponHammer1
+    7400038: weaponHammer1_001
+    9500000: //RootNode
+    13700000: Bod01Base
+    13700002: Bod01Hair
+    13700004: Mask01
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

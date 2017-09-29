@@ -20,8 +20,6 @@ public class MonsterCharger : LiveEntity {
 
 	GameObject skin;
 	GameObject eye;
-	
-	HurtBox hurtBox;
 
 	//public float skinRotateSpeed;
 
@@ -38,8 +36,6 @@ public class MonsterCharger : LiveEntity {
 		
 		skin = transform.Find ("Skin").gameObject;
 		eye = transform.Find ("Eye").gameObject;
-
-		hurtBox = transform.Find("HurtBox").gameObject.GetComponent<HurtBox> ();
 
 
 	

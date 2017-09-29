@@ -85,7 +85,6 @@ public class GameUIControl : MonoBehaviour {
 	Image levelPercent;
 	LevelTextSetter levelTextSetter;
 
-	Animator wingAnim;
 	Image wingOutline;
 	Image wingFillL;
 	Image wingFillR;
@@ -128,7 +127,6 @@ public class GameUIControl : MonoBehaviour {
 		levelPercent = transform.Find ("BottomLeft/Level/Green").gameObject.GetComponent<Image> (); 
 		levelTextSetter = transform.Find ("BottomLeft/Level").gameObject.GetComponent<LevelTextSetter> ();
 
-		wingAnim = transform.Find ("Top/Wings").gameObject.GetComponent<Animator> ();
 		wingOutline = transform.Find ("Top/Wings/Outline").gameObject.GetComponent<Image> (); 
 		wingFillL = transform.Find ("Top/Wings/FillL").gameObject.GetComponent<Image> (); 
 		wingFillR = transform.Find ("Top/Wings/FillR").gameObject.GetComponent<Image> ();

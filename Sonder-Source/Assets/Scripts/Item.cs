@@ -53,10 +53,10 @@ public struct ItemInstance {
 
 	public string GetFullName() {
 		return fullName = quality.prefix + " " + GetItem().baseName;
-		if (fullName == "") {
-			fullName = quality.prefix + " " + GetItem().baseName;
-		}
-		return fullName;
+		//if (fullName == "") {
+		//	fullName = quality.prefix + " " + GetItem().baseName;
+		//}
+		//return fullName;
 	}
 
 	public Color GetQualityColor() {

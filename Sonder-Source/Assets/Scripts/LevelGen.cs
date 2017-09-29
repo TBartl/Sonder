@@ -20,7 +20,6 @@ public class IslandStats {
 public class LevelGen : NetworkBehaviour {
 	// References to other things
 	public GameObject islandPrefab;
-	ItemDatabase itemDatabase;
 
 	// Total Area Stuff	
 	[SyncVar]
@@ -41,15 +40,6 @@ public class LevelGen : NetworkBehaviour {
 	public List<IslandStats> islandStats;
 
 	List<IslandGen> allIslands = new List<IslandGen> ();
-
-
-
-
-	LayerMask terrainMask = 1 << 8;
-
-	void Awake() {
-		itemDatabase = GameObject.Find("Main").GetComponent<ItemDatabase> ();
-	}
 
 	// Use this for initialization
 	void Start () {

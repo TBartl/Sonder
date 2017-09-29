@@ -55,17 +55,17 @@ public class PlayerAnimationController : NetworkBehaviour {
 			if (groundVelocity.magnitude >= aSmallValue)
 
 				SetFaceDirection (Mathf.Rad2Deg * Mathf.Atan2 (-groundVelocity.z, groundVelocity.x));
-			if (false && movementController.GetMoveState () != MoveState.rolling) {
-				Vector3 cameraDirection = movementController.InCameraDirection (Vector3.forward);
-				SetFaceDirection (Mathf.Rad2Deg * Mathf.Atan2 (-cameraDirection.z, cameraDirection.x));
-				Vector3 moveDirection = movementController.OutOfCameraDirection (movementController.GetGroundedVelocity ().normalized);
-				if (moveDirection.z >= -.1f)
-					animator.SetFloat ("VelCompX", moveDirection.x);
-				else
-					animator.SetFloat ("VelCompX", -moveDirection.x);
+			//if (false && movementController.GetMoveState () != MoveState.rolling) {
+			//	Vector3 cameraDirection = movementController.InCameraDirection (Vector3.forward);
+			//	SetFaceDirection (Mathf.Rad2Deg * Mathf.Atan2 (-cameraDirection.z, cameraDirection.x));
+			//	Vector3 moveDirection = movementController.OutOfCameraDirection (movementController.GetGroundedVelocity ().normalized);
+			//	if (moveDirection.z >= -.1f)
+			//		animator.SetFloat ("VelCompX", moveDirection.x);
+			//	else
+			//		animator.SetFloat ("VelCompX", -moveDirection.x);
 				
 				
-			}
+			//}
 			Vector3 accTilt = movementController.GetAccelerationDirection ();
 			if (movementController.GetMoveState () == MoveState.gliding)
 				armatureTilt.localRotation = Quaternion.Euler (accTilt.z * maxTiltGlide, 0, -accTilt.x * maxTiltGlide);

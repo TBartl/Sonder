@@ -22,7 +22,7 @@ public class EntityTargetingSystem : MonoBehaviour {
 		targetingParticlesGO = (GameObject)GameObject.Instantiate (targetingParticlesPrefab, transform.position, Quaternion.identity);
 		targetingParticlesGO.SetActive (false);
 		targetingParticlesReal = targetingParticlesGO.GetComponent<ParticleSystem> ();
-		targetingParticlesRealParts = new ParticleSystem.Particle[targetingParticlesReal.maxParticles];
+		targetingParticlesRealParts = new ParticleSystem.Particle[targetingParticlesReal.main.maxParticles];
 		playerMain = transform.GetComponentInParent<PlayerMain> ();	
 		
 	

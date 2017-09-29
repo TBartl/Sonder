@@ -18,7 +18,6 @@ public class PlayerMovementController : MonoBehaviour {
 	PlayerAnimationController animController;
 	Rigidbody rb;
 	PlayerMain playerMain;
-	PlayerParent playerParent;
 
 	[HideInInspector] public LevelGen levelGen;
 
@@ -86,7 +85,6 @@ public class PlayerMovementController : MonoBehaviour {
 		cameraController = GetComponent<PlayerCameraController> ();
 		animController = GetComponent<PlayerAnimationController> ();
 		playerMain = GetComponent<PlayerMain> ();
-		playerParent = GetComponent<PlayerParent> ();
 		levelGen = GameObject.Find ("Main").GetComponent<LevelGen> ();
 
 		SetupRolls ();
@@ -459,7 +457,6 @@ public class PlayerMovementController : MonoBehaviour {
 		if (levelGen.GetAllIslands ().Count > 0) {
 			int island = Random.Range (0, levelGen.GetAllIslands ().Count);
 			transform.position = levelGen.GetAllIslands () [island].GetLegitSpot (.3f, false);
-			playerMain.islandRadar.timeUntilRadar = 0;
 		}
 
 	}

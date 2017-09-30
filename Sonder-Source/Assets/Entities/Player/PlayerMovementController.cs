@@ -7,7 +7,7 @@ public enum MoveState {
     grounded, airborne, onLedge, rolling, gliding, hit
 }
 
-public class PlayerMovementController : NetworkBehaviour {
+public class PlayerMovementController : MonoBehaviour {
     //TODO: Clean values
     //TODO Max Fallspeed
     //TODO: Adjust friction on sloped surface
@@ -80,10 +80,6 @@ public class PlayerMovementController : NetworkBehaviour {
 
     // Use this for initialization
     void Start() {
-        if (!isLocalPlayer) {
-            this.enabled = false;
-            return;
-        }
         rb = GetComponent<Rigidbody>();
         cameraController = GetComponent<PlayerCameraController>();
         animController = GetComponent<PlayerAnimationController>();
@@ -96,17 +92,6 @@ public class PlayerMovementController : NetworkBehaviour {
     // Update is called once per frame
     void FixedUpdate() {
         rb.velocity = Vector3.zero;
-        //DEBUG 
-        /*
-		if (moveState == MoveState.airborne)
-			GetComponentInChildren<Renderer> ().material.color = Color.red;
-		else if (moveState == MoveState.grounded)
-			GetComponentInChildren<Renderer> ().material.color = new Color (.5f, .5f, 1);
-		else if (moveState == MoveState.rolling)
-			GetComponentInChildren<Renderer> ().material.color = Color.green;
-		else if (moveState == MoveState.gliding)
-			GetComponentInChildren<Renderer> ().material.color = Color.magenta;
-		*/
 
         HandleLedgePhysics();
 

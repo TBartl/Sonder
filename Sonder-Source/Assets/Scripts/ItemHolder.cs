@@ -36,7 +36,8 @@ public class ItemHolder : NetworkBehaviour {
         if (setup == false) {
             setup = true;
             //transform.parent = NetworkServer.FindLocalObject (targetNetworkID).transform.FindChild ("Close");
-            transform.parent = islandGameObject.transform.Find("Close");
+            if (islandGameObject)
+                transform.parent = islandGameObject.transform.Find("Close");
             //Debug.Log("Found it");
         }
 

@@ -30,7 +30,6 @@ public class PlayerMain : LiveEntity {
     [SyncVar] ItemInstance armorInst;
     [SyncVar] ItemInstance artifactInst;
     ItemHolder itemOnTopOf;
-    public ItemInstance defaultItemOnTopOf;
 
     public Action attackAction;
 
@@ -117,15 +116,6 @@ public class PlayerMain : LiveEntity {
     public void OnTriggerEnter(Collider c) {
     }
 
-    new void OnTriggerStay(Collider c) {
-        //Debug.Log (c.gameObject.name);
-        base.OnTriggerStay(c);
-
-        if (c.tag == "Item") {
-            itemOnTopOf = c.gameObject.GetComponent<ItemHolder>();
-        }
-    }
-
     void CheckGrabItem() {
 
         if (itemOnTopOf != null && Input.GetKeyDown(KeyCode.E)) {
@@ -191,9 +181,11 @@ public class PlayerMain : LiveEntity {
     }
 
     void DropItem(ItemInstance itemInst) {
-        Debug.Log("Tried to drop item, need to reimplement");
-        //GameObject islandGameObject = playerParent.movableParent.parent.gameObject;
-        //CmdDropItem (itemInst, islandGameObject);
+        //Debug.Log("Tried to drop item, need to reimplement");
+        GameObject islandGameObject = null;
+        if (this.transform.parent)
+            islandGameObject = this.transform.parent.gameObject;
+        CmdDropItem(itemInst, islandGameObject);
     }
 
 
@@ -238,7 +230,8 @@ public class PlayerMain : LiveEntity {
         //Debug.Log ("Tried to drop item: " + itemInst.GetFullName ());
         //GameObject temp = Item.GetItemDatabase().CreateItemHolder (transform.position+ .6f * transform.TransformDirection(Vector3.up), itemInst);
         GameObject temp = Item.GetItemDatabase().CreateItemHolder(transform.position, itemInst, islandGameObject);
-        temp.transform.parent = islandGameObject.transform.Find("Close");
+        if (islandGameObject)
+            temp.transform.parent = islandGameObject.transform.Find("Close");
         ParticleSystem.EmissionModule particleEmission = temp.GetComponent<ParticleSystem>().emission;
         particleEmission.enabled = true;
         //TODO Reimplement when island moving is fixed
@@ -279,9 +272,13 @@ public class PlayerMain : LiveEntity {
         return (Artifact)GetArtifactInst().GetItem();
     }
 
+    public void SetItemHolder(ItemHolder holder) {
+        itemOnTopOf = holder;
+    }
+
     public ItemInstance GetItemOnTopOf() {
         if (itemOnTopOf == null)
-            return defaultItemOnTopOf;
+            return new ItemInstance();
         return itemOnTopOf.itemInst;
     }
 

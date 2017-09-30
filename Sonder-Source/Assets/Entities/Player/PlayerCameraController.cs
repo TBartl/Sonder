@@ -2,7 +2,7 @@
 using UnityEngine.Networking;
 using System.Collections;
 
-public class PlayerCameraController : NetworkBehaviour {
+public class PlayerCameraController : MonoBehaviour {
 	//TODO: Hide mouse from elsewhere
 	//TODO: Allow users to change their zoom/rotate speed/sharpness.
 	//TODO: Bob up and down along the y-axis
@@ -45,10 +45,6 @@ public class PlayerCameraController : NetworkBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        if (!isLocalPlayer) {
-            this.enabled = false;
-            return;
-        }
 
         Cursor.lockState = CursorLockMode.Locked;
 

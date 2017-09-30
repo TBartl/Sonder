@@ -18,6 +18,7 @@ public class IslandStats {
 
 
 public class LevelGen : NetworkBehaviour {
+
 	// References to other things
 	public GameObject islandPrefab;
 
@@ -41,8 +42,8 @@ public class LevelGen : NetworkBehaviour {
 
 	List<IslandGen> allIslands = new List<IslandGen> ();
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 		islandMoveTime = maxIslandMoveTime;
 		if (isServer) {
 			FillWithIslands ();

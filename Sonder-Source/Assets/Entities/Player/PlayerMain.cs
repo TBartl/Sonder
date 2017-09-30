@@ -37,15 +37,13 @@ public class PlayerMain : LiveEntity {
     [SyncVar] public bool invincible;
     bool lastInvincible;
 
-    TrailRenderer rollTrail;
-
 
     void Awake() {
         movementController = GetComponent<PlayerMovementController>();
         animationController = GetComponent<PlayerAnimationController>();
         actionsController = GetComponent<PlayerActionsController>();
         cameraControl = GetComponent<PlayerCameraController>();
-        entityTarget = transform.Find("EntityTargetingSystem").GetComponent<EntityTargetingSystem>();
+        entityTarget = this.GetComponentInChildren<EntityTargetingSystem>();
         uiControl = GameObject.Find("UI").GetComponent<GameUIControl>();
 
         weaponInst = new ItemInstance();
@@ -60,8 +58,6 @@ public class PlayerMain : LiveEntity {
         artifactInst = new ItemInstance();
         artifactInst.itemID = baseArtifact.itemID;
         artifactInst.quality = baseQuality;
-
-        rollTrail = GetComponent<TrailRenderer>();
     }
 
 
@@ -83,7 +79,6 @@ public class PlayerMain : LiveEntity {
 
     // Update is called once per frame
     void Update() {
-        rollTrail.enabled = invincible;
 
         if (!isLocalPlayer)
             return;

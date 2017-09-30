@@ -22,6 +22,7 @@ public class PlayerAnimationController : NetworkBehaviour {
 	Transform armatureRoot;
 	Animator animator;
 	SkinnedMeshRenderer baseBodyRenderer;
+    InvincibleFlash invincibleFlash;
 
 	 
 	public List<GameObject> weaponObjects;
@@ -39,8 +40,9 @@ public class PlayerAnimationController : NetworkBehaviour {
 		armatureFaceVel = armatureTilt.Find ("ArmatureFaceVel");
 		armatureRoot = armatureFaceVel.Find ("Armature/root");
 		baseBodyRenderer = this.transform.Find ("BaseBody").GetComponent<SkinnedMeshRenderer>();
-		
-		FindAttachmentPoints ();
+        invincibleFlash = this.GetComponentInChildren<InvincibleFlash>();
+
+        FindAttachmentPoints ();
 	}
 
 	// Use this for initialization
@@ -84,11 +86,12 @@ public class PlayerAnimationController : NetworkBehaviour {
 
 		armatureFaceVel.localRotation = Quaternion.Euler (new Vector3 (0, 90 + faceDirAngle, 0));
 
-		
-		//armRotation.x = 90 * accTilt.z;
-		//armRotation.z = 90 * accTilt.x;
+        invincibleFlash.TryUpdate(playerMain.invincible);
 
-	}
+        //armRotation.x = 90 * accTilt.z;
+        //armRotation.z = 90 * accTilt.x;
+
+    }
 
 	public void SetFaceDirection(float f){
 		faceDirAngle = f;

@@ -19,6 +19,8 @@ public class IslandStats {
 
 public class LevelGen : NetworkBehaviour {
 
+    public static LevelGen S;
+
 	// References to other things
 	public GameObject islandPrefab;
 
@@ -41,6 +43,10 @@ public class LevelGen : NetworkBehaviour {
 	public List<IslandStats> islandStats;
 
 	List<IslandGen> allIslands = new List<IslandGen> ();
+
+    void Awake() {
+        S = this;
+    }
 
     // Use this for initialization
     void Start () {

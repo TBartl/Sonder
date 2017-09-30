@@ -66,6 +66,8 @@ public class PlayerMovementController : MonoBehaviour {
     public float glideMinFallSpeed;
     public float glideMaxRiseSpeed;
     float glideDelay = 0;
+    bool glideCanStart = true;
+    bool glideCanUp = true;
 
     float dazeTime = 0;
     public float dazeMovementConstant;
@@ -83,6 +85,7 @@ public class PlayerMovementController : MonoBehaviour {
         playerMain = GetComponent<PlayerMain>();
 
         SetupRolls();
+        glideStamina = playerMain.maxGlideStamina;
     }
 
     // Update is called once per frame
@@ -262,9 +265,12 @@ public class PlayerMovementController : MonoBehaviour {
 
             float verticalSpeed = Mathf.Clamp(velocity.y, -glideMinFallSpeed, glideMaxRiseSpeed);
             if (Input.GetKey(KeyCode.Space)) {
-                glideStamina = Mathf.Max(glideStamina - Time.deltaTime, 0);
-                verticalSpeed += glideUpAcc * Time.deltaTime;
-
+                if (glideCanStart) {
+                    StartCoroutine(BurnGlide());
+                }
+                if (glideCanUp) {
+                    verticalSpeed += glideUpAcc * Time.deltaTime;
+                }
             }
             if (glideStamina <= 0) {
                 moveState = MoveState.airborne;
@@ -272,9 +278,23 @@ public class PlayerMovementController : MonoBehaviour {
 
             velocity = intermediate * maxSpeed + Vector3.up * verticalSpeed;
         }
-        else {
-            glideStamina = Mathf.Min(glideStamina + playerMain.glideRechargeSpeed * Time.deltaTime, playerMain.maxGlideStamina);
+    }
+
+    IEnumerator BurnGlide() {
+        glideCanStart = false;
+        glideCanUp = true;
+        while (glideStamina > 0) {
+            glideStamina -= Time.deltaTime;
+            yield return null;
         }
+        glideCanUp = false;
+        while (glideStamina < playerMain.maxGlideStamina) {
+            glideStamina += playerMain.glideRechargeSpeed * Time.deltaTime;
+            yield return null;
+        }
+
+        glideCanStart = true;
+
     }
 
     void AddGravity() {

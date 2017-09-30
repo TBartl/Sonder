@@ -116,21 +116,7 @@ public class PlayerMovementController : MonoBehaviour {
     }
 
     void Update() {
-        //DEBUG
-        if (Input.GetKeyDown(KeyCode.LeftBracket))
-            Time.timeScale = .5f;
-        if (Input.GetKeyDown(KeyCode.P))
-            Time.timeScale = .25f;
-        if (Input.GetKeyDown(KeyCode.O))
-            Time.timeScale = Time.timeScale / 2f;
-        if (Input.GetKeyDown(KeyCode.RightBracket))
-            Time.timeScale = 1f;
-        if (Input.GetKeyDown(KeyCode.L))
-            Cursor.lockState = CursorLockMode.Locked;
-        if (Input.GetKeyDown(KeyCode.U))
-            Cursor.lockState = CursorLockMode.None;
-        if (Input.GetKeyDown(KeyCode.T))
-            SpawnPlayer();
+
 
         invincRollsRemaining = Mathf.Min(invincRollsRemaining + Time.deltaTime / invincRollRechargeTime, maxInvincRolls);
 
@@ -431,12 +417,12 @@ public class PlayerMovementController : MonoBehaviour {
         //}
     }
 
-    void SpawnPlayer() {
+    public void SpawnPlayer() {
+
         if (LevelGen.S.GetAllIslands().Count > 0) {
             int island = Random.Range(0, LevelGen.S.GetAllIslands().Count);
             transform.position = LevelGen.S.GetAllIslands()[island].GetLegitSpot(.3f, false);
         }
-
     }
 
     bool GetDazed() {

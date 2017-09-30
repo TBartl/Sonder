@@ -50,8 +50,10 @@ public class PlayerCameraController : NetworkBehaviour {
             return;
         }
 
-		// Create a pivot point that will be above the player's head.
-		GameObject temp = new GameObject ("Camera Pivot");
+        Cursor.lockState = CursorLockMode.Locked;
+
+        // Create a pivot point that will be above the player's head.
+        GameObject temp = new GameObject ("Camera Pivot");
 		pivotPoint = temp.GetComponent<Transform> ();
 		pivotPoint.parent = transform;
 		pivotPoint.localPosition = new Vector3 (0, startHeightAbovePlayer, 0);

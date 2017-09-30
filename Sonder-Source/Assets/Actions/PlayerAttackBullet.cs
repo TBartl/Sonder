@@ -50,7 +50,8 @@ public class PlayerAttackBullet : AttackBullet {
         GameObject temp = (GameObject)GameObject.Instantiate(launcherPrefab, transform.position, launcherRotation);
         temp.transform.Find("Quad").GetComponent<Renderer>().material.SetColor("_TintColor", weaponInst.GetLowAlphaColor());
         foreach (ParticleSystem p in temp.GetComponentsInChildren<ParticleSystem>()) {
-            p.startColor = weaponInst.GetLowAlphaColor();
+            ParticleSystem.MainModule pMain = p.main;
+            pMain.startColor = weaponInst.GetLowAlphaColor();
         }
         this.GetComponent<TrailRenderer>().material.SetColor("_TintColor", weaponInst.GetLowAlphaColor());
         Destroy(temp, 1);

@@ -71,10 +71,11 @@ public class EntityTargetingSystem : MonoBehaviour {
 	void SetNewTarget(LiveEntity newLiveEntity) {
 		target = newLiveEntity;
 		if (target != null) {
-			targetingParticlesReal.startSize = target.targetSize;
+            ParticleSystem.MainModule mainTargetingParticles = targetingParticlesReal.main;
+            mainTargetingParticles.startSizeMultiplier = target.targetSize;
 			int numCurrent = targetingParticlesReal.GetParticles(targetingParticlesRealParts);
 			for (int index = 0; index < numCurrent; index++){
-				targetingParticlesRealParts[index].size = target.targetSize;
+				targetingParticlesRealParts[index].startSize = target.targetSize;
 			}
 			targetingParticlesReal.SetParticles(targetingParticlesRealParts, numCurrent);
 			

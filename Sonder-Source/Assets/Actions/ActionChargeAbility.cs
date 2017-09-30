@@ -26,7 +26,7 @@ public class ActionChargeAbility : Action {
 		telegraphingSphere.transform.localScale = Vector3.one * maxSize * charge / chargeTime;
 		//TODO and input from 1 or left mouse
 		if (charge >= chargeTime && (Input.GetKey(KeyCode.Mouse0) || Input.GetKey(KeyCode.Alpha1)) ){
-			Vector3 viewDirection = owner.cameraControl.GetDirectionRaw ();
+			//Vector3 viewDirection = owner.cameraControl.GetDirectionRaw ();
 			owner.actionsController.CmdGenerateChargedAttack (maxSize);
 			CancelInstance();
 		}

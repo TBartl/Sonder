@@ -283,7 +283,7 @@ public class IslandGen : NetworkBehaviour {
                         temp.transform.localRotation *= Quaternion.Euler(0, 240, 0);
                     }
                     else if (thisType == HexType.Stairs270) {
-                        int prefabNum = (int)HexDraw.stairs1 + cityLayer;
+                        //int prefabNum = (int)HexDraw.stairs1 + cityLayer;
                         //GameObject temp = GenerateSingleHex(x, y, height, prefabNum);
                         //temp.transform.localRotation *= Quaternion.Euler(0,180+60+240,0);
                     }
@@ -301,7 +301,6 @@ public class IslandGen : NetworkBehaviour {
         Vector2 toVec3 = HexHelp.GetRelativePosition(new Vector2(y, x), rings);
         temp.transform.localPosition = new Vector3(toVec3.x, height, toVec3.y);
         return temp;
-
     }
 
     public void SetFar(bool isFar) {

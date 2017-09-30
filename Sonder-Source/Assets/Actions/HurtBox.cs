@@ -18,8 +18,8 @@ public class HurtBox : NetworkBehaviour {
 
 	public virtual void Setup(float damage, float dazeMovementTime, float dazeActionTime, float force, ForceApplyMode forceApply, GameObject exclude) {
 		this.damage = damage;
-		this.dazeMovementTime = this.dazeMovementTime;
-		this.dazeActionTime = this.dazeActionTime;
+		this.dazeMovementTime = dazeMovementTime;
+		this.dazeActionTime = dazeActionTime;
 		this.force = force;
 		forceApplyMode = forceApply;
 		alreadyHit.Add (exclude.GetComponent<LiveEntity>());

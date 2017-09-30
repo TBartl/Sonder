@@ -36,7 +36,6 @@ public struct ItemInstance {
 	//public Item item;
 	public ItemQuality quality;
 	public ItemID itemID;
-	string fullName;
 
 
 	public Item GetItem() {
@@ -52,7 +51,7 @@ public struct ItemInstance {
 	}
 
 	public string GetFullName() {
-		return fullName = quality.prefix + " " + GetItem().baseName;
+		return quality.prefix + " " + GetItem().baseName;
 		//if (fullName == "") {
 		//	fullName = quality.prefix + " " + GetItem().baseName;
 		//}
@@ -85,7 +84,6 @@ public struct ItemInstance {
 		ItemInstance temp = new ItemInstance ();
 		temp.itemID = itemID;
 		temp.quality = quality.Clone ();
-		temp.fullName = "";
 		return temp;
 	}
 

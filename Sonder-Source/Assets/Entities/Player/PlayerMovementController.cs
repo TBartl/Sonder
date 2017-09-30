@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Networking;
 using System.Collections;
 
 [System.Serializable]
@@ -6,7 +7,7 @@ public enum MoveState {
     grounded, airborne, onLedge, rolling, gliding, hit
 }
 
-public class PlayerMovementController : MonoBehaviour {
+public class PlayerMovementController : NetworkBehaviour {
     //TODO: Clean values
     //TODO Max Fallspeed
     //TODO: Adjust friction on sloped surface
@@ -79,6 +80,10 @@ public class PlayerMovementController : MonoBehaviour {
 
     // Use this for initialization
     void Start() {
+        if (!isLocalPlayer) {
+            this.enabled = false;
+            return;
+        }
         rb = GetComponent<Rigidbody>();
         cameraController = GetComponent<PlayerCameraController>();
         animController = GetComponent<PlayerAnimationController>();
@@ -377,9 +382,9 @@ public class PlayerMovementController : MonoBehaviour {
             Debug.Log("Can't check out of bounds");
             return;
         }
-        if (Vector3.Distance(transform.position, Vector3.zero) >= LevelGen.S.smoothRadius + 15) {
+        if (Vector3.Distance(transform.position, Vector3.zero) >= LevelGen.S.smoothRadius + 15 && LevelGen.S.GetAllIslands().Count > 0) {
             SpawnPlayer();
-            playerMain.health /= 2;
+            playerMain.health /= 2; 
         }
     }
 
@@ -439,6 +444,9 @@ public class PlayerMovementController : MonoBehaviour {
         if (LevelGen.S.GetAllIslands().Count > 0) {
             int island = Random.Range(0, LevelGen.S.GetAllIslands().Count);
             transform.position = LevelGen.S.GetAllIslands()[island].GetLegitSpot(.3f, false);
+        }
+        else {
+            transform.position = Vector3.zero;
         }
     }
 

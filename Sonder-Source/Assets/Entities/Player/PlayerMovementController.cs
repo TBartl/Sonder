@@ -272,9 +272,6 @@ public class PlayerMovementController : MonoBehaviour {
                     verticalSpeed += glideUpAcc * Time.deltaTime;
                 }
             }
-            if (glideStamina <= 0) {
-                moveState = MoveState.airborne;
-            }
 
             velocity = intermediate * maxSpeed + Vector3.up * verticalSpeed;
         }

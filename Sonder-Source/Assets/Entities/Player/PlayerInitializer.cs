@@ -8,7 +8,6 @@ public class PlayerInitializer : NetworkBehaviour {
 	// Use this for initialization
 	void Start () {
 		if (isLocalPlayer) {
-			GetComponent<PlayerCameraController> ().enabled = true;
 			GetComponent<PlayerMovementController> ().enabled = true;
 			GetComponent<PlayerActionsController> ().enabled = true;
 			//GetComponent<PlayerAnimationController> ().enabled = true; //Now is a Network Script

@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
+using UnityEngine.Networking;
 using System.Collections;
 
-public class PlayerCameraController : MonoBehaviour {
+public class PlayerCameraController : NetworkBehaviour {
 	//TODO: Hide mouse from elsewhere
 	//TODO: Allow users to change their zoom/rotate speed/sharpness.
 	//TODO: Bob up and down along the y-axis
@@ -44,6 +45,11 @@ public class PlayerCameraController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        if (!isLocalPlayer) {
+            this.enabled = false;
+            return;
+        }
+
 		// Create a pivot point that will be above the player's head.
 		GameObject temp = new GameObject ("Camera Pivot");
 		pivotPoint = temp.GetComponent<Transform> ();
@@ -93,7 +99,7 @@ public class PlayerCameraController : MonoBehaviour {
 	void GetInput()
 	{
 		zoomChange += Input.GetAxis ("Mouse ScrollWheel")*zoomSensitivity*Time.deltaTime;
-		rotateChange += new Vector3(-Input.GetAxis("Mouse Y"), Input.GetAxis("Mouse X"), 0)*rotateSensitivity*Time.deltaTime;
+		rotateChange += new Vector3(-Input.GetAxis("Mouse Y"), Input.GetAxis("Mouse X"), 0)*rotateSensitivity;
 	}
 
 	void SmoothlyMove()
